@@ -1,0 +1,57 @@
+﻿<html><body><table border = 1>
+<tr>
+<th>Material ID</th>
+<th>Material DESC</th>
+<th>Customer COD</th>
+<th>Customer DESC</th>
+<th>Distribution Channel ID</th>
+<th>Distribution Channel DESC</th>
+<th>Sales Org ID</th>
+<th>Sales Org DESC</th>
+<th>Sales District DESC</th>
+<th>Sales Doc# COD</th>
+<th>Sales Doc Type ID</th>
+<th>Order Reason ID</th>
+<th>Order Reason DESC</th>
+<th>Usage Hdr ID</th>
+<th>Usage Hdr DESC</th>
+<th>Document Date DATE</th>
+<th>Schedule Ln# ID</th>
+<th>Size ID</th>
+<th>Rejection Reason Sch Ln ID</th>
+<th>New Rejection Reason</th>
+<th>Total Rejected Quantity</th>
+<th>Sales Order Item COD</th>
+<th>Status</th>
+<th>Action Failed</th>
+<th>Message</th>
+</tr>
+<tr>
+<td>250853337001</td>
+<td>TRIPLE GEORGETTE-DRESS</td>
+<td>15712</td>
+<td>ENGELHORN MODE GMBH</td>
+<td>10</td>
+<td>Wholesale</td>
+<td>4027</td>
+<td>RL Germany GmbH</td>
+<td>Region Germany</td>
+<td>25266787</td>
+<td>ZORL</td>
+<td>P</td>
+<td>PREBOOK</td>
+<td>122</td>
+<td>PF/TR 2022 EU Mkt 1</td>
+<td>10/25/2021 00:00:00</td>
+<td>0009</td>
+<td>8</td>
+<td>J0</td>
+<td> </td>
+<td>1</td>
+<td>200</td>
+<td>Failed</td>
+<td>CheckItemAvailability</td>
+<td> There is not J0 rejection assigned to the transaction item: 25266787
+   </td>
+</tr>
+</table></body></html>
