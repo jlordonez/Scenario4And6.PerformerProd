@@ -231,7 +231,7 @@
         </ui:CursorPosition>
       </ui:Click.CursorPosition>
       <ui:Click.Target>
-        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="af01c842-60ab-41c5-88d5-62e4d11f6bc0" Selector="&lt;wnd app='nwbc.exe' cls='HwndWrapper*' /&gt;&lt;wnd cls='SAP_FRONTEND_EMBEDDED' title='Change *: Initial Screen' /&gt;&lt;sap text='Back' /&gt;">
+        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="af01c842-60ab-41c5-88d5-62e4d11f6bc0" Selector="&lt;wnd app='nwbc.exe' cls='HwndWrapper*' /&gt;&lt;wnd cls='SAP_FRONTEND_EMBEDDED' title='Change *' /&gt;&lt;sap text='Back' /&gt;">
           <ui:Target.TimeoutMS>
             <InArgument x:TypeArguments="x:Int32" />
           </ui:Target.TimeoutMS>
