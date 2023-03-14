@@ -7,7 +7,7 @@
   <mva:VisualBasic.Settings>
     <x:Null />
   </mva:VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>1063,4012</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>1775,2985</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>SAP_ReasonForRejection_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="39">
@@ -97,7 +97,7 @@
       <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="SAP_ReasonForRejection" sap:VirtualizedContainerService.HintSize="1073,3947" sap2010:WorkflowViewState.IdRef="Sequence_8">
+  <Sequence DisplayName="SAP_ReasonForRejection" sap:VirtualizedContainerService.HintSize="1785,2920" sap2010:WorkflowViewState.IdRef="Sequence_8">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:Boolean" Name="elementExist" />
       <Variable x:TypeArguments="x:Boolean" Name="bool_MaterialExists" />
@@ -112,8 +112,8 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="1031,91" sap2010:WorkflowViewState.IdRef="LogMessage_3" Level="Info" Message="[&quot;Start Reason For Rejection&quot;]" />
-    <Sequence sap2010:Annotation.AnnotationText="Description: &#xA;1. Validate if Material ID exists on SAP.&#xA;2. Validate if Sales Order Item COD exists on SAP." DisplayName="Validate if Sales Order Item COD, Material ID exist on SAP" sap:VirtualizedContainerService.HintSize="1031,677" sap2010:WorkflowViewState.IdRef="Sequence_28">
+    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="1743,91" sap2010:WorkflowViewState.IdRef="LogMessage_3" Level="Info" Message="[&quot;Start Reason For Rejection&quot;]" />
+    <Sequence sap2010:Annotation.AnnotationText="Description: &#xA;1. Validate if Material ID exists on SAP.&#xA;2. Validate if Sales Order Item COD exists on SAP." DisplayName="Validate if Sales Order Item COD, Material ID exist on SAP" sap:VirtualizedContainerService.HintSize="1743,677" sap2010:WorkflowViewState.IdRef="Sequence_28">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -164,7 +164,7 @@ d("Material").ToString.Trim.ToUpper.Equals(in_TransactionItem.SpecificContent("M
         </If.Else>
       </If>
     </Sequence>
-    <Sequence sap2010:Annotation.AnnotationText="Description:&#xA;1. Validate if Rejection Reason Sch Ln ID exists on SAP." DisplayName="Validate ifRejectio Reason Sch Ln ID exist on SAP" sap:VirtualizedContainerService.HintSize="1031,683" sap2010:WorkflowViewState.IdRef="Sequence_31">
+    <Sequence sap2010:Annotation.AnnotationText="Description:&#xA;1. Validate if Rejection Reason Sch Ln ID exists on SAP." DisplayName="Validate ifRejectio Reason Sch Ln ID exist on SAP" sap:VirtualizedContainerService.HintSize="1743,683" sap2010:WorkflowViewState.IdRef="Sequence_31">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -228,14 +228,14 @@ Select d("Index")).ToList]</InArgument>
         </If.Else>
       </If>
     </Sequence>
-    <Sequence DisplayName="Validate if Index Contains the Transaction Item" sap:VirtualizedContainerService.HintSize="1031,2153" sap2010:WorkflowViewState.IdRef="Sequence_34">
+    <Sequence DisplayName="Validate if Index Contains the Transaction Item" sap:VirtualizedContainerService.HintSize="1743,1126" sap2010:WorkflowViewState.IdRef="Sequence_34">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
           <x:Boolean x:Key="IsPinned">False</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <If Condition="[indexList.Count &gt; 0]" DisplayName="Validate if the IndexList Contains the Row Item" sap:VirtualizedContainerService.HintSize="989,1909" sap2010:WorkflowViewState.IdRef="If_9">
+      <If Condition="[indexList.Count &gt; 0]" DisplayName="Validate if the IndexList Contains the Row Item" sap:VirtualizedContainerService.HintSize="1701,882" sap2010:WorkflowViewState.IdRef="If_9">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -243,13 +243,13 @@ Select d("Index")).ToList]</InArgument>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
         <If.Then>
-          <Sequence sap:VirtualizedContainerService.HintSize="568,1751" sap2010:WorkflowViewState.IdRef="Sequence_35">
+          <Sequence sap:VirtualizedContainerService.HintSize="1280,724" sap2010:WorkflowViewState.IdRef="Sequence_35">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <Assign DisplayName="Assign - Index" sap:VirtualizedContainerService.HintSize="526,60" sap2010:WorkflowViewState.IdRef="Assign_9">
+            <Assign DisplayName="Assign - Index" sap:VirtualizedContainerService.HintSize="1238,60" sap2010:WorkflowViewState.IdRef="Assign_9">
               <Assign.To>
                 <OutArgument x:TypeArguments="x:String">[Index]</OutArgument>
               </Assign.To>
@@ -257,7 +257,7 @@ Select d("Index")).ToList]</InArgument>
                 <InArgument x:TypeArguments="x:String">[IndexList(0).ToString]</InArgument>
               </Assign.Value>
             </Assign>
-            <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Attach Window 'Change Sales Order'" sap:VirtualizedContainerService.HintSize="526,596" sap2010:WorkflowViewState.IdRef="WindowScope_5" InformativeScreenshot="f2d7595730b72e2776b8b1e574873e16" Selector="&lt;wnd app='*.exe' title='Change RL *' /&gt;">
+            <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Attach Window 'Change Sales Order'" sap:VirtualizedContainerService.HintSize="1238,51" sap2010:WorkflowViewState.IdRef="WindowScope_5" InformativeScreenshot="f2d7595730b72e2776b8b1e574873e16" Selector="&lt;wnd app='*.exe' title='Change RL *' /&gt;">
               <ui:WindowScope.Body>
                 <ActivityAction x:TypeArguments="x:Object">
                   <ActivityAction.Argument>
@@ -269,7 +269,7 @@ Select d("Index")).ToList]</InArgument>
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
-                    <ui:Check AlterIfDisabled="{x:Null}" ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" Action="Check" DisplayName="Check the Row Item Desired" sap:VirtualizedContainerService.HintSize="334,106" sap2010:WorkflowViewState.IdRef="Check_3">
+                    <ui:Check AlterIfDisabled="{x:Null}" ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" Action="Check" DisplayName="Check the Row Item Desired" sap:VirtualizedContainerService.HintSize="554,106" sap2010:WorkflowViewState.IdRef="Check_3">
                       <ui:Check.Target>
                         <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="bcdd9eb8-1d07-404a-a051-cf4de3ab695b" InformativeScreenshot="32ca4e0455d1d5ac501155ee06cd40ac" Selector="[String.Format(&quot;&lt;wnd cls='SAP_FRONTEND_EMBEDDED' /&gt;&lt;sap id='usr/tabsTAXI_TABSTRIP_OVERVIEW/tabpT\02/ssubSUBSCREEN_BODY:SAPLJ3AD:2930/ssubSUBITEM_L2:SAPMJ3AS:2001/tblSAPMJ3ASTCTRL_LINE_ENTRY' tableRow='{0}' /&gt;&quot;, Index)]">
                           <ui:Target.TimeoutMS>
@@ -281,7 +281,7 @@ Select d("Index")).ToList]</InArgument>
                         </ui:Target>
                       </ui:Check.Target>
                     </ui:Check>
-                    <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'Button  Fast Change'" sap:VirtualizedContainerService.HintSize="334,106" sap2010:WorkflowViewState.IdRef="Click_11" KeyModifiers="None" MouseButton="BTN_LEFT" SimulateClick="True">
+                    <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'Button  Fast Change'" sap:VirtualizedContainerService.HintSize="554,106" sap2010:WorkflowViewState.IdRef="Click_11" KeyModifiers="None" MouseButton="BTN_LEFT" SimulateClick="True">
                       <ui:Click.CursorPosition>
                         <ui:CursorPosition Position="Center">
                           <ui:CursorPosition.OffsetX>
@@ -300,7 +300,7 @@ Select d("Index")).ToList]</InArgument>
                         </ui:Target>
                       </ui:Click.Target>
                     </ui:Click>
-                    <Sequence DisplayName="Validate if Fast Change Windows Exists" sap:VirtualizedContainerService.HintSize="334,66" sap2010:WorkflowViewState.IdRef="Sequence_45">
+                    <Sequence DisplayName="Validate if Fast Change Windows Exists" sap:VirtualizedContainerService.HintSize="554,66" sap2010:WorkflowViewState.IdRef="Sequence_45">
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                           <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -420,91 +420,188 @@ Select d("Index")).ToList]</InArgument>
               </ui:WindowScope.Body>
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
                   <x:Boolean x:Key="IsPinned">False</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
             </ui:WindowScope>
-            <Sequence DisplayName="Validate if Sales Doc Number is Valid until" sap:VirtualizedContainerService.HintSize="526,923" sap2010:WorkflowViewState.IdRef="Sequence_47">
-              <sap:WorkflowViewStateService.ViewState>
-                <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
-                </scg:Dictionary>
-              </sap:WorkflowViewStateService.ViewState>
-              <ui:UiElementExists DisplayName="Element Exists 'Information Message'" Exists="[elementExist]" sap:VirtualizedContainerService.HintSize="484,86" sap2010:WorkflowViewState.IdRef="UiElementExists_5">
-                <ui:UiElementExists.Target>
-                  <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="8e4172b8-de2b-4801-853b-26f5758ee049" Selector="&lt;wnd app='sap*.exe' cls='#32770' title='Information' idx='*' /&gt;&lt;sap id='tbar[0]/btn[0]' /&gt;" TimeoutMS="[CInt(in_Config(&quot;TimeOut_3second&quot;).ToString)]">
-                    <ui:Target.WaitForReady>
-                      <InArgument x:TypeArguments="ui:WaitForReady" />
-                    </ui:Target.WaitForReady>
-                  </ui:Target>
-                </ui:UiElementExists.Target>
-              </ui:UiElementExists>
-              <If Condition="[elementExist]" DisplayName="Validate if 'Information message' exists" sap:VirtualizedContainerService.HintSize="484,705" sap2010:WorkflowViewState.IdRef="If_12">
-                <If.Then>
-                  <Sequence sap:VirtualizedContainerService.HintSize="376,518" sap2010:WorkflowViewState.IdRef="Sequence_48">
-                    <sap:WorkflowViewStateService.ViewState>
-                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                      </scg:Dictionary>
-                    </sap:WorkflowViewStateService.ViewState>
-                    <ui:GetValue ContinueOnError="{x:Null}" DisplayName="Get Text 'Message'" sap:VirtualizedContainerService.HintSize="334,86" sap2010:WorkflowViewState.IdRef="GetValue_1">
-                      <ui:GetValue.Target>
-                        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="2e0f08c0-ff34-4542-b644-213ec1e08a26" Selector="&lt;wnd app='sap*.exe' cls='#32770' title='Information' idx='*' /&gt;&lt;sap id='usr/txtMESSTXT1' /&gt;">
-                          <ui:Target.TimeoutMS>
-                            <InArgument x:TypeArguments="x:Int32" />
-                          </ui:Target.TimeoutMS>
-                          <ui:Target.WaitForReady>
-                            <InArgument x:TypeArguments="ui:WaitForReady" />
-                          </ui:Target.WaitForReady>
-                        </ui:Target>
-                      </ui:GetValue.Target>
-                      <ui:GetValue.Value>
-                        <OutArgument x:TypeArguments="x:String">[str_getMessage]</OutArgument>
-                      </ui:GetValue.Value>
-                    </ui:GetValue>
-                    <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click &quot;Enter&quot; button" sap:VirtualizedContainerService.HintSize="334,86" sap2010:WorkflowViewState.IdRef="Click_14" KeyModifiers="None" MouseButton="BTN_LEFT" SimulateClick="True">
-                      <ui:Click.CursorPosition>
-                        <ui:CursorPosition Position="Center">
-                          <ui:CursorPosition.OffsetX>
-                            <InArgument x:TypeArguments="x:Int32" />
-                          </ui:CursorPosition.OffsetX>
-                          <ui:CursorPosition.OffsetY>
-                            <InArgument x:TypeArguments="x:Int32" />
-                          </ui:CursorPosition.OffsetY>
-                        </ui:CursorPosition>
-                      </ui:Click.CursorPosition>
-                      <ui:Click.Target>
-                        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="9d008d29-591d-4104-8e2b-236b5d68a4b7" Selector="&lt;wnd app='sap*.exe' cls='#32770' title='Information' idx='*' /&gt;&lt;sap id='tbar[0]/btn[0]' /&gt;">
-                          <ui:Target.TimeoutMS>
-                            <InArgument x:TypeArguments="x:Int32" />
-                          </ui:Target.TimeoutMS>
-                          <ui:Target.WaitForReady>
-                            <InArgument x:TypeArguments="ui:WaitForReady" />
-                          </ui:Target.WaitForReady>
-                        </ui:Target>
-                      </ui:Click.Target>
-                    </ui:Click>
-                    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="SAP\SAP_CIA_NoSaveData.xaml - Invoke Workflow File" sap:VirtualizedContainerService.HintSize="334,112" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_7" UnSafe="False" WorkflowFileName="SAP\SAP_CIA_NoSaveData.xaml">
-                      <ui:InvokeWorkflowFile.Arguments>
-                        <scg:Dictionary x:TypeArguments="x:String, Argument" />
-                      </ui:InvokeWorkflowFile.Arguments>
-                    </ui:InvokeWorkflowFile>
-                    <Throw DisplayName="Throw BRE" Exception="[New BusinessRuleException(str_getMessage+&quot; for the next Sale Document Number:&quot; + in_TransactionItem.SpecificContent(&quot;SalesDoc-CC&quot;).ToString )]" sap:VirtualizedContainerService.HintSize="334,22" sap2010:WorkflowViewState.IdRef="Throw_5" />
-                  </Sequence>
-                </If.Then>
-                <If.Else>
-                  <Sequence sap2010:WorkflowViewState.IdRef="Sequence_49">
-                    <sap:WorkflowViewStateService.ViewState>
-                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                      </scg:Dictionary>
-                    </sap:WorkflowViewStateService.ViewState>
-                  </Sequence>
-                </If.Else>
-              </If>
-            </Sequence>
+            <Pick DisplayName="Validate Status of Transaction" sap:VirtualizedContainerService.HintSize="1238,441" sap2010:WorkflowViewState.IdRef="Pick_1">
+              <PickBranch DisplayName="Validate if A6  is success" sap:VirtualizedContainerService.HintSize="384,395" sap2010:WorkflowViewState.IdRef="PickBranch_1">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+                <PickBranch.Trigger>
+                  <ui:UiElementExists Exists="{x:Null}" DisplayName="Element Exists 'Tab  AFS Item overview'" sap:VirtualizedContainerService.HintSize="334,106" sap2010:WorkflowViewState.IdRef="UiElementExists_11">
+                    <ui:UiElementExists.Target>
+                      <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="7ea0e824-0c23-4c57-88ab-d67694fc2848" InformativeScreenshot="0173cc5cff370f9b43c21f704de52c7d" Selector="&lt;wnd app='nwbc.exe' cls='HwndWrapper*' idx='*' /&gt;&lt;wnd cls='SAP_FRONTEND_EMBEDDED' title='Change RL *' /&gt;&lt;sap text='AFS Item overview' /&gt;" TimeoutMS="[Cint(in_Config(&quot;TimeOut_3second&quot;).ToString)]">
+                        <ui:Target.WaitForReady>
+                          <InArgument x:TypeArguments="ui:WaitForReady" />
+                        </ui:Target.WaitForReady>
+                      </ui:Target>
+                    </ui:UiElementExists.Target>
+                  </ui:UiElementExists>
+                </PickBranch.Trigger>
+                <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="334,91" sap2010:WorkflowViewState.IdRef="LogMessage_7" Level="Info" Message="[&quot;AFS Item Overview is Available on NO ATS&quot;]" />
+              </PickBranch>
+              <PickBranch DisplayName="Validate if 'Information' message appear" sap:VirtualizedContainerService.HintSize="200,395" sap2010:WorkflowViewState.IdRef="PickBranch_2">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+                <PickBranch.Trigger>
+                  <ui:UiElementExists Exists="{x:Null}" DisplayName="Element Exists 'Information Message'" sap:VirtualizedContainerService.HintSize="334,86" sap2010:WorkflowViewState.IdRef="UiElementExists_5">
+                    <ui:UiElementExists.Target>
+                      <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="8e4172b8-de2b-4801-853b-26f5758ee049" Selector="&lt;wnd app='sap*.exe' cls='#32770' title='Information' idx='*' /&gt;&lt;sap id='tbar[0]/btn[0]' /&gt;" TimeoutMS="[Cint(in_Config(&quot;TimeOut_3second&quot;).ToString)]">
+                        <ui:Target.WaitForReady>
+                          <InArgument x:TypeArguments="ui:WaitForReady" />
+                        </ui:Target.WaitForReady>
+                      </ui:Target>
+                    </ui:UiElementExists.Target>
+                  </ui:UiElementExists>
+                </PickBranch.Trigger>
+                <Sequence DisplayName="Not Save Data" sap:VirtualizedContainerService.HintSize="376,518" sap2010:WorkflowViewState.IdRef="Sequence_53">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <ui:GetValue ContinueOnError="{x:Null}" DisplayName="Get Text 'Message'" sap:VirtualizedContainerService.HintSize="334,86" sap2010:WorkflowViewState.IdRef="GetValue_1">
+                    <ui:GetValue.Target>
+                      <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="2e0f08c0-ff34-4542-b644-213ec1e08a26" Selector="&lt;wnd app='sap*.exe' cls='#32770' title='Information' idx='*' /&gt;&lt;sap id='usr/txtMESSTXT1' /&gt;">
+                        <ui:Target.TimeoutMS>
+                          <InArgument x:TypeArguments="x:Int32" />
+                        </ui:Target.TimeoutMS>
+                        <ui:Target.WaitForReady>
+                          <InArgument x:TypeArguments="ui:WaitForReady" />
+                        </ui:Target.WaitForReady>
+                      </ui:Target>
+                    </ui:GetValue.Target>
+                    <ui:GetValue.Value>
+                      <OutArgument x:TypeArguments="x:String">[str_getMessage]</OutArgument>
+                    </ui:GetValue.Value>
+                  </ui:GetValue>
+                  <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click &quot;Enter&quot; button" sap:VirtualizedContainerService.HintSize="334,86" sap2010:WorkflowViewState.IdRef="Click_14" KeyModifiers="None" MouseButton="BTN_LEFT" SimulateClick="True">
+                    <ui:Click.CursorPosition>
+                      <ui:CursorPosition Position="Center">
+                        <ui:CursorPosition.OffsetX>
+                          <InArgument x:TypeArguments="x:Int32" />
+                        </ui:CursorPosition.OffsetX>
+                        <ui:CursorPosition.OffsetY>
+                          <InArgument x:TypeArguments="x:Int32" />
+                        </ui:CursorPosition.OffsetY>
+                      </ui:CursorPosition>
+                    </ui:Click.CursorPosition>
+                    <ui:Click.Target>
+                      <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="9d008d29-591d-4104-8e2b-236b5d68a4b7" Selector="&lt;wnd app='sap*.exe' cls='#32770' title='Information' idx='*' /&gt;&lt;sap id='tbar[0]/btn[0]' /&gt;">
+                        <ui:Target.TimeoutMS>
+                          <InArgument x:TypeArguments="x:Int32" />
+                        </ui:Target.TimeoutMS>
+                        <ui:Target.WaitForReady>
+                          <InArgument x:TypeArguments="ui:WaitForReady" />
+                        </ui:Target.WaitForReady>
+                      </ui:Target>
+                    </ui:Click.Target>
+                  </ui:Click>
+                  <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="SAP\SAP_CIA_NoSaveData.xaml - Invoke Workflow File" sap:VirtualizedContainerService.HintSize="334,112" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_7" UnSafe="False" WorkflowFileName="SAP\SAP_CIA_NoSaveData.xaml">
+                    <ui:InvokeWorkflowFile.Arguments>
+                      <scg:Dictionary x:TypeArguments="x:String, Argument" />
+                    </ui:InvokeWorkflowFile.Arguments>
+                  </ui:InvokeWorkflowFile>
+                  <Throw DisplayName="Throw BRE" Exception="[New BusinessRuleException(str_getMessage+&quot; for the next Sale Document Number:&quot; + in_TransactionItem.SpecificContent(&quot;SalesDoc-CC&quot;).ToString )]" sap:VirtualizedContainerService.HintSize="334,22" sap2010:WorkflowViewState.IdRef="Throw_5" />
+                </Sequence>
+              </PickBranch>
+              <PickBranch DisplayName="Validate if 'The Sales Doc is only valid from' message appear" sap:VirtualizedContainerService.HintSize="200,395" sap2010:WorkflowViewState.IdRef="PickBranch_3">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+                <PickBranch.Trigger>
+                  <ui:UiElementExists Exists="{x:Null}" DisplayName="Element Exists 'The Sales Doc is only valid from '" sap:VirtualizedContainerService.HintSize="334,86" sap2010:WorkflowViewState.IdRef="UiElementExists_10">
+                    <ui:UiElementExists.Target>
+                      <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="8d2508d3-c726-4c86-93e8-74587ce71b55" Selector="&lt;wnd app='nwbc.exe' cls='HwndWrapper*' idx='*' /&gt;&lt;wnd cls='SAP_FRONTEND_EMBEDDED' title='Change*' /&gt;&lt;sap id='sbar/pane[0]' text='The sales document is only valid from *' /&gt;" TimeoutMS="[Cint(in_Config(&quot;TimeOut_3second&quot;).ToString)]">
+                        <ui:Target.WaitForReady>
+                          <InArgument x:TypeArguments="ui:WaitForReady" />
+                        </ui:Target.WaitForReady>
+                      </ui:Target>
+                    </ui:UiElementExists.Target>
+                  </ui:UiElementExists>
+                </PickBranch.Trigger>
+                <Sequence sap:VirtualizedContainerService.HintSize="376,224" sap2010:WorkflowViewState.IdRef="Sequence_55">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <ui:SendHotkey Activate="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" DisplayName="Send Hotkey 'Enter'" sap:VirtualizedContainerService.HintSize="334,132" sap2010:WorkflowViewState.IdRef="SendHotkey_1" Key="enter" KeyModifiers="None" SendWindowMessages="True" SpecialKey="True">
+                    <ui:SendHotkey.Target>
+                      <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="6de94eb0-d711-450a-90d5-eb2801b12d8f" Selector="&lt;wnd app='nwbc.exe' cls='HwndWrapper*' idx='*' /&gt;&lt;wnd cls='SAP_FRONTEND_EMBEDDED' title='Change RL *' /&gt;&lt;sap id='mbar' /&gt;">
+                        <ui:Target.TimeoutMS>
+                          <InArgument x:TypeArguments="x:Int32" />
+                        </ui:Target.TimeoutMS>
+                        <ui:Target.WaitForReady>
+                          <InArgument x:TypeArguments="ui:WaitForReady" />
+                        </ui:Target.WaitForReady>
+                      </ui:Target>
+                    </ui:SendHotkey.Target>
+                  </ui:SendHotkey>
+                </Sequence>
+              </PickBranch>
+              <PickBranch DisplayName="&quot;Grid Value Not Valid&quot; message appear" sap:VirtualizedContainerService.HintSize="200,395" sap2010:WorkflowViewState.IdRef="PickBranch_4">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+                <PickBranch.Trigger>
+                  <ui:UiElementExists Exists="{x:Null}" DisplayName="Element Exists 'Grid Value * Not valid...'" sap:VirtualizedContainerService.HintSize="334,86" sap2010:WorkflowViewState.IdRef="UiElementExists_12">
+                    <ui:UiElementExists.Target>
+                      <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="8d2508d3-c726-4c86-93e8-74587ce71b55" Selector="&lt;wnd app='nwbc.exe' cls='HwndWrapper*' idx='*' /&gt;&lt;wnd cls='SAP_FRONTEND_EMBEDDED' title='Change*' /&gt;&lt;sap id='sbar/pane[0]' text='Grid value *' /&gt;" TimeoutMS="[Cint(in_Config(&quot;TimeOut_3second&quot;).ToString)]">
+                        <ui:Target.WaitForReady>
+                          <InArgument x:TypeArguments="ui:WaitForReady" />
+                        </ui:Target.WaitForReady>
+                      </ui:Target>
+                    </ui:UiElementExists.Target>
+                  </ui:UiElementExists>
+                </PickBranch.Trigger>
+                <Sequence sap:VirtualizedContainerService.HintSize="376,392" sap2010:WorkflowViewState.IdRef="Sequence_54">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <ui:GetValue ContinueOnError="{x:Null}" DisplayName="Get Text - Grid Value * Not Valid..." sap:VirtualizedContainerService.HintSize="334,86" sap2010:WorkflowViewState.IdRef="GetValue_2">
+                    <ui:GetValue.Target>
+                      <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="105bb0f6-2a8c-4976-bfef-68a309c9497f" Selector="&lt;wnd app='nwbc.exe' cls='HwndWrapper*' idx='*' /&gt;&lt;wnd cls='SAP_FRONTEND_EMBEDDED' title='Change*' /&gt;&lt;sap id='sbar/pane[0]' text='Grid value *' /&gt;">
+                        <ui:Target.TimeoutMS>
+                          <InArgument x:TypeArguments="x:Int32" />
+                        </ui:Target.TimeoutMS>
+                        <ui:Target.WaitForReady>
+                          <InArgument x:TypeArguments="ui:WaitForReady" />
+                        </ui:Target.WaitForReady>
+                      </ui:Target>
+                    </ui:GetValue.Target>
+                    <ui:GetValue.Value>
+                      <OutArgument x:TypeArguments="x:String">[str_getMessage]</OutArgument>
+                    </ui:GetValue.Value>
+                  </ui:GetValue>
+                  <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="SAP\SAP_CIA_GridValueNotValid.xaml - Invoke Workflow File" sap:VirtualizedContainerService.HintSize="334,112" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_10" UnSafe="False" WorkflowFileName="SAP\SAP_CIA_GridValueNotValid.xaml">
+                    <ui:InvokeWorkflowFile.Arguments>
+                      <scg:Dictionary x:TypeArguments="x:String, Argument" />
+                    </ui:InvokeWorkflowFile.Arguments>
+                  </ui:InvokeWorkflowFile>
+                  <Throw DisplayName="Throw BRE" Exception="[New BusinessRuleException(str_getMessage+&quot; for the next Sale Document Number:&quot; + in_TransactionItem.SpecificContent(&quot;SalesDoc-CC&quot;).ToString )]" sap:VirtualizedContainerService.HintSize="334,22" sap2010:WorkflowViewState.IdRef="Throw_6" />
+                </Sequence>
+              </PickBranch>
+            </Pick>
           </Sequence>
         </If.Then>
         <If.Else>
@@ -523,12 +620,12 @@ Select d("Index")).ToList]</InArgument>
           </Sequence>
         </If.Else>
       </If>
-      <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="SAP\SAP_NavToHome.xaml - Invoke Workflow File" sap:VirtualizedContainerService.HintSize="989,112" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_8" UnSafe="False" WorkflowFileName="SAP\SAP_NavToHome.xaml">
+      <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="SAP\SAP_NavToHome.xaml - Invoke Workflow File" sap:VirtualizedContainerService.HintSize="1701,112" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_8" UnSafe="False" WorkflowFileName="SAP\SAP_NavToHome.xaml">
         <ui:InvokeWorkflowFile.Arguments>
           <InArgument x:TypeArguments="ui:QueueItem" x:Key="in_TransactionItem">[in_TransactionItem]</InArgument>
         </ui:InvokeWorkflowFile.Arguments>
       </ui:InvokeWorkflowFile>
     </Sequence>
-    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="1031,91" sap2010:WorkflowViewState.IdRef="LogMessage_4" Level="Info" Message="[&quot;End Reson For Rejection&quot;]" />
+    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="1743,91" sap2010:WorkflowViewState.IdRef="LogMessage_4" Level="Info" Message="[&quot;End Reson For Rejection&quot;]" />
   </Sequence>
 </Activity>
