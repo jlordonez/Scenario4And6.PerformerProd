@@ -1,0 +1,165 @@
+﻿<html><body><table border = 1>
+<tr>
+<th>Material ID</th>
+<th>Material DESC</th>
+<th>Customer COD</th>
+<th>Customer DESC</th>
+<th>Distribution Channel ID</th>
+<th>Distribution Channel DESC</th>
+<th>Sales Org ID</th>
+<th>Sales Org DESC</th>
+<th>Sales District DESC</th>
+<th>Sales Doc# COD</th>
+<th>Sales Doc Type ID</th>
+<th>Order Reason ID</th>
+<th>Order Reason DESC</th>
+<th>Usage Hdr ID</th>
+<th>Usage Hdr DESC</th>
+<th>Document Date DATE</th>
+<th>Schedule Ln# ID</th>
+<th>Size ID</th>
+<th>Rejection Reason Sch Ln ID</th>
+<th>New Rejection Reason</th>
+<th>Total Rejected Quantity</th>
+<th>Sales Order Item COD</th>
+<th>Status</th>
+<th>Action Failed</th>
+<th>Message</th>
+</tr>
+<tr>
+<td>449693059001</td>
+<td>COTTON BLEND-CREW SOCK 6PK</td>
+<td>18097</td>
+<td>ASOS PLC</td>
+<td>10</td>
+<td>Wholesale</td>
+<td>4047</td>
+<td>RL UK Ltd</td>
+<td>UK & Ireland</td>
+<td>27280966</td>
+<td>ZORL</td>
+<td>P</td>
+<td>PREBOOK</td>
+<td>423</td>
+<td>Spring 2023 EU Mkt 4</td>
+<td>10/25/2022 00:00:00</td>
+<td>0002</td>
+<td>OSZ</td>
+<td>J0</td>
+<td>A6</td>
+<td>2</td>
+<td>1300</td>
+<td>Failed</td>
+<td>Rejection</td>
+<td> There is not J0 rejection assigned to the transaction item: 27280966
+   </td>
+<tr>
+<td>200797305005</td>
+<td>STR SPORTSWEAR PIQU-LND-JKT</td>
+<td>15720</td>
+<td>JOHN LEWIS PLC</td>
+<td>10</td>
+<td>Wholesale</td>
+<td>4047</td>
+<td>RL UK Ltd</td>
+<td>UK & Ireland</td>
+<td>28098843</td>
+<td>ZORL</td>
+<td>P</td>
+<td>PREBOOK</td>
+<td>423</td>
+<td>Spring 2023 EU Mkt 4</td>
+<td>01/05/2023 00:00:00</td>
+<td>0004</td>
+<td>L</td>
+<td>J0</td>
+<td> </td>
+<td>40</td>
+<td>100</td>
+<td>Failed</td>
+<td>CheckItemAvailability</td>
+<td> ATP item 000100: order qty. not fully confirmed / for the next Sale Document Number:28098843
+   </td>
+<tr>
+<td>200797305005</td>
+<td>STR SPORTSWEAR PIQU-LND-JKT</td>
+<td>15720</td>
+<td>JOHN LEWIS PLC</td>
+<td>10</td>
+<td>Wholesale</td>
+<td>4047</td>
+<td>RL UK Ltd</td>
+<td>UK & Ireland</td>
+<td>28098843</td>
+<td>ZORL</td>
+<td>P</td>
+<td>PREBOOK</td>
+<td>423</td>
+<td>Spring 2023 EU Mkt 4</td>
+<td>01/05/2023 00:00:00</td>
+<td>0005</td>
+<td>XL</td>
+<td>J0</td>
+<td> </td>
+<td>25</td>
+<td>100</td>
+<td>Failed</td>
+<td>CheckItemAvailability</td>
+<td> ATP item 000100: order qty. not fully confirmed / for the next Sale Document Number:28098843
+   </td>
+<tr>
+<td>200797305005</td>
+<td>STR SPORTSWEAR PIQU-LND-JKT</td>
+<td>15720</td>
+<td>JOHN LEWIS PLC</td>
+<td>10</td>
+<td>Wholesale</td>
+<td>4047</td>
+<td>RL UK Ltd</td>
+<td>UK & Ireland</td>
+<td>28098843</td>
+<td>ZORL</td>
+<td>P</td>
+<td>PREBOOK</td>
+<td>423</td>
+<td>Spring 2023 EU Mkt 4</td>
+<td>01/05/2023 00:00:00</td>
+<td>0006</td>
+<td>S</td>
+<td>J0</td>
+<td> </td>
+<td>10</td>
+<td>100</td>
+<td>Failed</td>
+<td>CheckItemAvailability</td>
+<td> ATP item 000100: order qty. not fully confirmed / for the next Sale Document Number:28098843
+   </td>
+<tr>
+<td>200797305005</td>
+<td>STR SPORTSWEAR PIQU-LND-JKT</td>
+<td>15720</td>
+<td>JOHN LEWIS PLC</td>
+<td>10</td>
+<td>Wholesale</td>
+<td>4047</td>
+<td>RL UK Ltd</td>
+<td>UK & Ireland</td>
+<td>28098843</td>
+<td>ZORL</td>
+<td>P</td>
+<td>PREBOOK</td>
+<td>423</td>
+<td>Spring 2023 EU Mkt 4</td>
+<td>01/05/2023 00:00:00</td>
+<td>0007</td>
+<td>M</td>
+<td>J0</td>
+<td> </td>
+<td>20</td>
+<td>100</td>
+<td>Failed</td>
+<td>CheckItemAvailability</td>
+<td> ATP item 000100: order qty. not fully confirmed / for the next Sale Document Number:28098843
+   </td>
+</tr>
+</table></body></html>
